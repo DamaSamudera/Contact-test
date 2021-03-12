@@ -1,0 +1,17 @@
+.root {
+  background-color: var(--button);
+  border: none;
+  border-radius: 0.25rem;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1rem;
+  padding: 1rem;
+  transition: background-color 0.25s;
+  width: 10rem;
+}
+
+.root:hover {
+  background-color: var(--secondary-color);
+}

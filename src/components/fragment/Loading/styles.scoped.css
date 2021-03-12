@@ -1,0 +1,19 @@
+.root {
+  background-color: var(--primary-variant-color-1);
+  height: 5px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.root > span {
+  animation: progress 1s ease-in-out 0s infinite;
+  background-color: var(--primary-color);
+  display: block;
+  height: 100%;
+  width: 20%;
+}
+
+@keyframes progress {
+  from { margin-left: -20%; }
+  to { margin-left: 100%; }
+}

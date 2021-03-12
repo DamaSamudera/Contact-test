@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 30vh;
+  padding: 3rem;
+  width: 100%;
+}
+
+.contact {
+  width: 100%;
+}
+
+.contact-summary {
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.contact-summary > img {
+  border-radius: 130rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+.contact-summary > p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: auto;
+}
+
+.contact-detail {
+  display: flex;
+  background-color: aliceblue;
+  justify-content: space-around;
+  padding: 2rem;
+  margin-top: -1rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.icon img, .icon > a > img {
+  height: 1rem;
+  margin-top: 1.5rem;
+  width: 1rem;
+}
+
+.sidebar {
+  background-color: aliceblue;
+  border-radius: 8px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+  width: 25%;
+}
+
+.sidebar > h5 { margin-top: 3rem;}
+
+.sidebar > h3 {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.wraper {
+  background-color: aliceblue;
+  border-radius: 8px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 65%;
+}
+
+.wraper > span {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.wraper > span > a > img {
+  height: 2rem;
+}

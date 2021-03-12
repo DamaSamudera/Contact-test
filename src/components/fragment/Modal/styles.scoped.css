@@ -1,0 +1,13 @@
+.root {
+  background-color: #ffffff;
+  height: 90vh;
+  margin: auto;
+  padding: 3.75rem 5.375rem;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transform: translateY(-50%);
+  top: 50%;
+  width: 88vw;
+  z-index: 10;
+}

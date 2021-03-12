@@ -1,0 +1,49 @@
+.root {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  height: 20rem;
+  margin-left: 30vw;
+  padding: 1rem;
+  position: absolute;
+  width: 28.375rem;
+}
+
+.root > header {
+  display: flex;
+}
+
+.btn-cancel {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid var(--primary-color);
+  margin-right: 1rem;
+}
+
+.close {
+  margin-top: 0.5rem;
+  margin-left: auto;
+}
+
+.icon {
+  width: 5rem;
+  margin-bottom: 2rem;
+}
+
+.modal-content {
+  margin: auto 0;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+.modal-content > p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.modal-content > span {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}

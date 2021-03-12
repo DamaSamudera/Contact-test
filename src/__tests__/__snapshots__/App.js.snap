@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/App render 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [MockFunction],
+      "getState": [MockFunction],
+      "subscribe": [MockFunction],
+    }
+  }
+>
+  <Router
+    history={Object {}}
+  >
+    <AppContextProvider>
+      <Switch>
+        <PageBase>
+          <Route
+            exact={true}
+            path="/create"
+          />
+          <Route
+            exact={true}
+            path="/"
+          />
+        </PageBase>
+        <Route />
+      </Switch>
+    </AppContextProvider>
+  </Router>
+</Provider>
+`;
